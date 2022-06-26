@@ -1,0 +1,31 @@
+{
+  "name": "ebook-place",
+  "version": "1.0.0",
+  "description": "Ebook sharing community",
+  "main": "src/index.mjs",
+  "scripts": {
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nahin Akbar",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "knex": "^2.1.0",
+    "koa": "^2.13.4",
+    "koa-passport": "^4.1.4",
+    "objection": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahinakbar/ebook-place-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nahinakbar/ebook-place-server/issues"
+  },
+  "homepage": "https://github.com/nahinakbar/ebook-place-server#readme"
+}
