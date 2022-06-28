@@ -12,12 +12,18 @@
   "license": "ISC",
   "dependencies": {
     "@koa/router": "^10.1.1",
+    "cabin": "^9.1.2",
     "knex": "^2.1.0",
     "koa": "^2.13.4",
     "koa-passport": "^4.1.4",
-    "objection": "^3.0.1"
+    "objection": "^3.0.1",
+    "pino": "^8.1.0",
+    "signale": "^1.4.0",
+    "sqlite3": "^5.0.8"
   },
   "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-google": "^0.14.0",
     "nodemon": "^2.0.18"
   },
   "repository": {
